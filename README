@@ -1,0 +1,19 @@
+This little plasmoid provides a configuration interface and a switch to start/stop Redshift daemon.
+See Redshift website for more detailed info <http://jonls.dk/redshift/>.
+
+Known problem
+Only one instance of this plasmoid can be executed, infact multiple instances will interfere
+each others.
+
+Developed by:
+Diego Cristina <diegocc100 AT gmail DOT com>
+Simone Gaiarin <simgunz AT gmail DOT com>
+
+Code under GPLv3 license (see COPYING)
+
+Requires:
+KDE SC 4.x
+Redshift
+
+How to install:
+plasmapkg -i redshift.plasmoid
